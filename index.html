@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#171816" />
+  <meta name="description" content="Atelier Noir — an architectural design studio concept exploring thoughtful spaces, materiality, and the art of living." />
+  <meta property="og:title" content="ATELIER NOIR — Space to Feel" />
+  <meta property="og:description" content="An independent architecture studio concept. A premium web design portfolio experience." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://images.unsplash.com" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+  <title>ATELIER NOIR — Architecture & Objects</title>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <div class="scroll-progress" id="scroll-progress" aria-hidden="true"></div>
+  <div class="noise" aria-hidden="true"></div>
+
+  <header class="site-header" id="site-header">
+    <a class="brand" href="#home" aria-label="Atelier Noir, back to top">
+      <span class="brand-mark" aria-hidden="true">A<span class="brand-slash">/</span>N</span>
+      <span class="brand-name">ATELIER<br />NOIR<span class="brand-dot">.</span></span>
+    </a>
+    <nav class="primary-nav" id="primary-nav" aria-label="Primary navigation">
+      <a href="#work">Selected work</a>
+      <a href="#studio">The studio</a>
+      <a href="#approach">Our approach</a>
+      <a href="#contact" class="nav-contact">Explore the concept <span aria-hidden="true">↗</span></a>
+    </nav>
+    <button class="menu-toggle" id="menu-toggle" type="button" aria-controls="primary-nav" aria-expanded="false" aria-label="Open navigation">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <section class="hero" id="home" aria-label="Architecture that moves you">
+      <div class="hero-photo" aria-hidden="true"></div>
+      <div class="hero-shade" aria-hidden="true"></div>
+      <div class="hero-left-line" aria-hidden="true"></div>
+      <div class="hero-content container">
+        <div class="hero-eyebrow"><span class="eyebrow-line"></span> AN INDEPENDENT DESIGN PERSPECTIVE <span class="eyebrow-index">01 / 04</span></div>
+        <h1>Spaces<br />to <em>feel.</em></h1>
+        <div class="hero-bottom">
+          <p>Architecture is more than what we see.<br />It is everything we experience.</p>
+          <a class="circle-link" href="#work" aria-label="Scroll to selected projects"><span aria-hidden="true">↘</span></a>
+        </div>
+      </div>
+      <div class="hero-rail" aria-hidden="true"><span>ATELIER NOIR / DESIGN STUDIES</span><span>SCROLL TO EXPLORE&nbsp; ↓</span></div>
+    </section>
+
+    <section class="intro-section section-light" aria-labelledby="intro-title">
+      <div class="container intro-layout">
+        <div class="section-kicker reveal"><span class="small-line"></span> OUR POINT OF VIEW / 001</div>
+        <div class="intro-main reveal">
+          <h2 id="intro-title">We design for<br /><em>the in-between.</em></h2>
+          <div class="intro-subline">
+            <p>Between light and shadow. Structure and softness. The familiar and the unexpected. We believe extraordinary spaces begin with the feeling they leave behind.</p>
+            <span class="asterisk" aria-hidden="true">✳</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="work-section section-light" id="work" aria-labelledby="work-title">
+      <div class="container">
+        <div class="section-topline reveal">
+          <div class="section-kicker"><span class="small-line"></span> CURATED DESIGN STUDIES / 002</div>
+          <span class="small-muted">A collection of spatial ideas · 2026</span>
+        </div>
+        <div class="work-heading reveal">
+          <h2 id="work-title">Selected <em>work.</em></h2>
+          <p>Four explorations in form, material,<br />and the life that unfolds within.</p>
+        </div>
+        <div class="filter-bar reveal" role="group" aria-label="Filter projects">
+          <button type="button" class="filter-button is-active" data-filter="all" aria-pressed="true">All studies <span>04</span></button>
+          <button type="button" class="filter-button" data-filter="residential" aria-pressed="false">Residential</button>
+          <button type="button" class="filter-button" data-filter="interiors" aria-pressed="false">Interiors</button>
+          <button type="button" class="filter-button" data-filter="experimental" aria-pressed="false">Experimental</button>
+        </div>
+        <p class="sr-only" id="filter-status" aria-live="polite"></p>
+
+        <div class="projects-grid" id="projects-grid">
+          <article class="project-card project-card-wide reveal" data-category="residential">
+            <button class="project-visual" type="button" data-project="solace" aria-label="Explore the Solace House study">
+              <img src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1800&q=80" srcset="https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=600&q=80 600w, https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1100&q=80 1100w, https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1800&q=80 1800w" sizes="(max-width: 760px) 100vw, 90vw" alt="Contemporary white coastal villa with a pool and palm trees" width="1800" height="1125" loading="lazy" decoding="async" />
+              <span class="project-circle" aria-hidden="true">↗</span><span class="project-corner">01 / 04</span>
+            </button>
+            <div class="project-meta"><div><span class="project-type">RESIDENTIAL / CONCEPT</span><h3>Solace House</h3></div><span class="project-year">STUDY 01 — 2026</span></div>
+          </article>
+
+          <article class="project-card reveal" data-category="interiors">
+            <button class="project-visual" type="button" data-project="stillness" aria-label="Explore the Stillness Interior study">
+              <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1100&q=80" srcset="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=600&q=80 600w, https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1100&q=80 1100w, https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1800&q=80 1800w" sizes="(max-width: 760px) 100vw, 90vw" alt="Soft contemporary living room with light neutral furnishings and warm natural materials" width="1100" height="1265" loading="lazy" decoding="async" />
+              <span class="project-circle" aria-hidden="true">↗</span><span class="project-corner">02 / 04</span>
+            </button>
+            <div class="project-meta"><div><span class="project-type">INTERIORS / CONCEPT</span><h3>Stillness</h3></div><span class="project-year">STUDY 02 — 2026</span></div>
+          </article>
+
+          <article class="project-card reveal" data-category="residential">
+            <button class="project-visual" type="button" data-project="terra" aria-label="Explore the Terra Residence study">
+              <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1100&q=80" srcset="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=600&q=80 600w, https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1100&q=80 1100w, https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1800&q=80 1800w" sizes="(max-width: 760px) 100vw, 90vw" alt="Modern white residential architecture with landscaped gardens" width="1100" height="1265" loading="lazy" decoding="async" />
+              <span class="project-circle" aria-hidden="true">↗</span><span class="project-corner">03 / 04</span>
+            </button>
+            <div class="project-meta"><div><span class="project-type">RESIDENTIAL / CONCEPT</span><h3>Terra Residence</h3></div><span class="project-year">STUDY 03 — 2026</span></div>
+          </article>
+
+          <article class="project-card project-card-wide reveal" data-category="experimental">
+            <button class="project-visual" type="button" data-project="monolith" aria-label="Explore the Monolith study">
+              <img src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fit=crop&w=1800&q=80" srcset="https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fit=crop&w=600&q=80 600w, https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fit=crop&w=1100&q=80 1100w, https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fit=crop&w=1800&q=80 1800w" sizes="(max-width: 760px) 100vw, 90vw" alt="Minimalist contemporary architectural facade with clean geometric lines" width="1800" height="1125" loading="lazy" decoding="async" />
+              <span class="project-circle" aria-hidden="true">↗</span><span class="project-corner">04 / 04</span>
+            </button>
+            <div class="project-meta"><div><span class="project-type">EXPERIMENTAL / CONCEPT</span><h3>Monolith</h3></div><span class="project-year">STUDY 04 — 2026</span></div>
+          </article>
+        </div>
+        <div class="work-footer-note reveal"><span>© ATELIER NOIR — CONCEPT STUDIES</span><span>END OF COLLECTION&nbsp; ↘</span></div>
+      </div>
+    </section>
+
+    <section class="manifesto" id="studio" aria-labelledby="manifesto-title">
+      <div class="manifesto-photo" aria-hidden="true"></div>
+      <div class="manifesto-overlay" aria-hidden="true"></div>
+      <div class="container manifesto-inner">
+        <div class="section-kicker light-kicker reveal"><span class="small-line"></span> AN INTENTION, NOT A STYLE / 003</div>
+        <div class="manifesto-main reveal">
+          <span class="quote-mark" aria-hidden="true">“</span>
+          <h2 id="manifesto-title">The most beautiful<br />spaces are the ones<br /><em>that make us pause.</em></h2>
+          <div class="manifesto-sign"><span class="signature-line"></span> THE ATELIER NOIR PHILOSOPHY</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="approach-section section-light" id="approach" aria-labelledby="approach-title">
+      <div class="container">
+        <div class="section-topline reveal"><div class="section-kicker"><span class="small-line"></span> THE WAY WE SEE / 004</div><span class="small-muted">Principles over trends</span></div>
+        <div class="approach-intro reveal"><h2 id="approach-title">Quietly <em>intentional.</em></h2><p>Design made to be lived in, not simply looked at. Three principles shape each imagined space.</p></div>
+        <div class="principles">
+          <div class="principle reveal"><span class="principle-index">01 /</span><div><h3>Material honesty</h3><p>Natural textures, honest surfaces, and character that grows richer with time.</p></div><span class="principle-symbol" aria-hidden="true">↗</span></div>
+          <div class="principle reveal"><span class="principle-index">02 /</span><div><h3>Considered light</h3><p>Daylight is an essential material, never an afterthought.</p></div><span class="principle-symbol" aria-hidden="true">↗</span></div>
+          <div class="principle reveal"><span class="principle-index">03 /</span><div><h3>Human connection</h3><p>Places that make room for both everyday rituals and extraordinary moments.</p></div><span class="principle-symbol" aria-hidden="true">↗</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="container contact-inner">
+        <div class="section-kicker light-kicker reveal"><span class="small-line"></span> EVERY SPACE BEGINS WITH AN IDEA</div>
+        <div class="contact-main reveal"><h2 id="contact-title">What could<br /><em>we imagine?</em></h2><a class="contact-cta" href="#work" aria-label="Explore the design studies"><span>Explore the collection</span><span aria-hidden="true">↗</span></a></div>
+        <p class="concept-notice">This is an independent web-design portfolio concept, not an operating architecture practice. No client contact details are collected here.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-row"><a class="footer-brand" href="#home" aria-label="Atelier Noir, back to top">A<span>/</span>N</a><p>ATELIER NOIR © <span id="year">2026</span><br /><span>DESIGN CONCEPT — NOT A REAL STUDIO</span></p><a href="#home" class="back-top">BACK TO TOP ↑</a></div></footer>
+
+  <dialog class="project-dialog" id="project-dialog" aria-labelledby="dialog-title">
+    <div class="dialog-content">
+      <button type="button" class="dialog-close" id="dialog-close" aria-label="Close project details">✕</button>
+      <div class="dialog-image-wrap"><img id="dialog-image" src="" alt="" width="1300" height="750" /></div>
+      <div class="dialog-text"><span class="dialog-kicker" id="dialog-kicker"></span><h2 id="dialog-title" tabindex="-1"></h2><p id="dialog-description"></p><div class="dialog-foot"><span>INDEPENDENT CONCEPT STUDY</span><button type="button" id="dialog-next">NEXT STUDY <span aria-hidden="true">↗</span></button></div></div>
+    </div>
+  </dialog>
+</body>
+</html>
